@@ -1,0 +1,38 @@
+.uno{
+  position: absolute;
+  font-family: Rockwell;
+  top: -8%;
+  left: 29%;
+  font-size: 75px;
+ }
+ .r{
+  position: absolute;
+  font-family: Rockwell;
+  font-size: 15px;
+  top: 31%;
+  left: 45.5%;
+  font-size: 15px;
+ }
+
+.caja1{
+  position: absolute;	
+  top: 19%;
+  left: 42%;
+}
+
+.caja2{
+  position: absolute;	
+  top: 25%;
+  left: 42%;
+}
+
+.caja3{
+  position: absolute;	
+  top: 36.7%;
+  left: 42%;
+}
+
+ body{
+background: url(lu.jpg) fixed no-repeat;
+background-size: cover;
+}

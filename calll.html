@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<body>
+    <script type="text/javascript">
+       var m=0;
+        x = [];
+        function suma() {
+        var n1= Number(document.getElementById("numu").value);
+        var n2= Number(document.getElementById("numd").value);
+        var res=n1+n2;
+        document.getElementById('resu').value=res;
+        x.push(res);
+        res.value=x.length;
+        document.getElementById('cuenta').value=x;
+        
+
+        }
+
+</script>
+<form> 
+        <label> <p class="uno">CALCULADORA</label><br></p>
+        <p class="caja1"><input type="text" id="numu" placeholder="Ingrese un numero" ></p><br><br>
+        <p class="caja2"><input type="text" id="numd" placeholder="Ingrese un numero" ></p><br><br>
+        <br>
+        <br>
+        <p class="r"><input type="button" value="Resultado" onclick="suma();"></p>
+        <br>
+        <br>
+        
+        <p class="caja3"><input type="" id="resu" value=""></p>
+ 
+
+    </form>
+
+
+    </form>
+
+</body>
+</html>
